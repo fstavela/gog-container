@@ -1,4 +1,4 @@
-alias airline-tycoon="docker run -it -d --rm --net=host \
+alias airline-tycoon="docker run -it -d --rm --net=host --log-driver=journald \
 	-e DISPLAY=$DISPLAY \
 	-e PULSE_SERVER=/run/user/1000/pulse/native \
 	--device /dev/snd:/dev/snd \
