@@ -4,7 +4,7 @@ alias airline-tycoon="docker run -it -d --rm --net=host \
 	--device /dev/snd:/dev/snd \
 	-v /tmp/.X11-unix/:/tmp/.X11-unix \
 	-v /run/user/1000/pulse:/run/user/1000/pulse \
-	-v /home/$USER/games/gog_container/games:/home/gamer/games \
-	-v /home/$USER/games/gog_container/.AirlineTycoonDeluxe:/home/gamer/.AirlineTycoonDeluxe \
-	-v /home/$USER/games/gog_container/.AirlineTycoonDeluxeconfig.ini:/home/gamer/.AirlineTycoonDeluxeconfig.ini \
-	--name gog-ate gog:1.0 /home/gamer/games/airline_tycoon/start.sh"
+	-v /home/$USER/games/gog-games/airline-tycoon:/home/gamer/airline-tycoon \
+	-v /home/$USER/games/gog-games/.AirlineTycoonDeluxe:/home/gamer/.AirlineTycoonDeluxe \
+	-v /home/$USER/games/gog-games/.AirlineTycoonDeluxeconfig.ini:/home/gamer/.AirlineTycoonDeluxeconfig.ini \
+	--name gog-ate gog:1.0 /home/gamer/airline-tycoon/start.sh"

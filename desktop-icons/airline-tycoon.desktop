@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=Airline Tycoon Deluxe
 Exec=bash -ci "airline-tycoon"
-Icon=/home/USER/games/gog_container/games/airline-tycoon/game/ATDeluxe.xpm
+Icon=/home/USER/games/gog-games/airline-tycoon/game/ATDeluxe.xpm
 Type=Application
